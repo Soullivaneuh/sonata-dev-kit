@@ -102,6 +102,20 @@ Good commit message subject :
 Document how to install the project
 ```
 
+Also, when you specify what you did avoid commit message subjects with "Fix bug
+in such and such feature". Saying you are fixing something implies the previous
+implementation was wrong and yours is right, which might not be even true.
+Instead, humbly say what you did technically and **then** explain how this is
+supposed to fix a bug. Your commit message will probably look like this:
+
+```
+call foo::bar() instead of bar::baz()
+
+This fixes a bug that arises when doing this or that, because baz() needs a
+flux capacitor object that might not be defined.
+Fixes #42
+```
+
 The description is optional but strongly recommended. It could be asked by the
 team if needed. PR will often lead to complicated, hard-to-read conversations
 with many links to other web pages.
