@@ -27,7 +27,7 @@ and run this command before committing your modifications:
 php-cs-fixer fix --verbose
 ```
 
-### Writing a Pull Requests
+### Writing a Pull Request
 
 #### The content
 
