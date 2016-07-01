@@ -1,4 +1,4 @@
-<!-- THE PR TEMPLATE IS NOT AN OPTION. DO NOT DELETE IT! -->
+<!-- THE PR TEMPLATE IS NOT AN OPTION. DO NOT DELETE IT, MAKE SURE YOU READ AND EDIT IT! -->
 
 <!--
     Show us you choose the right branch.
@@ -7,15 +7,15 @@
     - {{ unstable_branch }} is for deprecation removals and other changes that cannot be done without a BC-break
     More details here: https://github.com/sonata-project/{{ repository_name }}/blob/{{ stable_branch }}/CONTRIBUTING.md#the-base-branch
 -->
-I am targetting this branch, because…
+I am targetting this branch, because {reason}.
 
 <!--
     Specify which issues will be fixed/closed.
     Remove it if this is not related.
 -->
 
-Closes #
-Fixes #
+Closes #{put_issue_number_here}
+Fixes #{put_issue_number_here}
 
 ## Changelog
 
@@ -51,6 +51,9 @@ Fixes #
 - [ ] Update the tests
 - [ ] Update the documentation
 - [ ] Add an upgrade note
+- [ ] Give a valid reason for targetting this branch
+- [ ] Find related issues that this closes
+- [ ] Change the todo list
 
 ## Subject
 
